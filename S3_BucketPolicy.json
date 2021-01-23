@@ -1,0 +1,21 @@
+{
+  "Id": "Default_Policy_For_S3",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Default_Access",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "*",
+      "Resource": [
+        "arn:aws:s3:::arara-23-s3/*",
+        "arn:aws:s3:::arara-23-s3"
+      ],
+      "Condition": {
+        "IpAddress": {
+          "aws:SourceIp": "49.207.133.225"
+        }
+      }
+    }
+  ]
+}
