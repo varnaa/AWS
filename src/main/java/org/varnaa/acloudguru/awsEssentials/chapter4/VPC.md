@@ -39,3 +39,49 @@ VPC lets you provision a logically isolated section of the AWS cloud, where you 
 - Subnets to provision AWS resources in (such as EC2 instances)
 
 ---
+
+
+### IGW - Internet Gateway
+AWS definition: An internet gateway is a horizontally scaled, redundant and highly available vpc component that allows communication between the instances in your VPC and the internet. Therefore imposes no availability risks or bandwidth constraints on the network traffic.
+
+- A VPC can only have 1 Internet Gateway at any given time.
+- An IGW cannot be detached from a VPC while there are active AWS resources in the VPC ( such as EC2 instance or RDS )
+
+
+---
+
+### Route Tables (RTs)
+- Route tables contains a set of rules called routes, that are used to determine where the network traffic is directed.
+
+![Route table](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter4/screenshots/routeTable.png)
+
+
+---
+
+### Network Access Control Lists (NACLs)
+AWS Definition - Optional layer of security to your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+
+![NACL](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter4/screenshots/nacl.png)
+
+---
+
+### Subnets
+
+#### Simplified Definition:
+A subnet, shorthand for subnetwork, is sub-section of network. Generally, a subnet includes all the computers in a specific location.
+
+
+### AWS Definition:
+When you create a VPC, it spans all the availability Zones in the region. After creating a VPC, you can add one or more subnets in each availability Zone. Each subnet must reside entirely within one Availability Zone and cannot span Zones.
+
+
+![subnets](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter4/screenshots/subnets.png)
+
+---
+
+### Availability Zones
+
+![NACL](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter4/screenshots/az.png)
+
+
+---
