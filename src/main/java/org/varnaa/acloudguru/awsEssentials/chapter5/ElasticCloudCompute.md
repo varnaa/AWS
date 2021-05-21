@@ -67,3 +67,45 @@ An "Operating System"
 Amazon machine image provides the information required to launch an instance, which is a virtual server in the cloud. One can launch as many instances from the AMI as they need. Or use different AMI for different servers.
 
 - When you create an AMI, you are essentially creating a template that you can use to launch another EC2 instance that has the exact same components as the original.
+
+---
+
+## Elastic Block Store
+
+### Simplified Definition:
+EBS (Elastic Block Store) is a storage volume for an EC2 instance. (Think of it as an hard drive)
+
+
+### Amazon Definition:
+EBS volumes are highly available storage volumes that can be attached to any running instance that is in the same availability zone. EBS volumes that are attached to EC2 instance are exposed a storage volumes that persist independently of the "LIFE OF THE EC2 INSTANCE".
+
+
+### What is IOPS ?
+
+#### IOPS - Input / Output Operations Per Second.
+
+### Simplified Definition
+The amount of data that can be written to or retrieved from EBS per second.
+
+### AWS Definition
+Unit measure representing the input/output operations per second. The operations are measured in KiB and the underlying drive technology that determines the maximum amount of data that a volume type counts as a single I/O. 
+I/O size is capped is 256 KiB for SSD and 1024 KiB for HDD volumes.
+
+#### What does this mean ? 
+More IOPS means better volume performance. i,e. The larger the EBS volume size the more IOPS the volume has.
+
+### Storage in EC2
+- Root Volume
+- Additional Volume
+
+![ebs 1](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs1.png)
+
+![ebs 2](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs2.png)
+
+![ebs 3](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs3.png)
+
+
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs4.png)
+
+
+---
