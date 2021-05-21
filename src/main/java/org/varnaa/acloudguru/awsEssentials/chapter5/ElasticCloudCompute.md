@@ -99,13 +99,29 @@ More IOPS means better volume performance. i,e. The larger the EBS volume size t
 - Additional Volume
 
 ![ebs 1](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs1.png)
-
+---
 ![ebs 2](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs2.png)
-
-![ebs 3](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs3.png)
-
-
-![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/ebs4.png)
+---
+![ebs 3](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/eb3.png)
+---
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/eb4.png)
 
 
 ---
+
+## Security Groups
+
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/sg1.png)
+---
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/sg2.png)
+---
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/sg3.png)
+---
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/sg4.png)
+---
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/sg5.png)
+---
+![ebs 4](https://github.com/varnaa/AWS/blob/master/src/main/java/org/varnaa/acloudguru/awsEssentials/chapter5/screenshots/sg6.png)
+
+---
+
